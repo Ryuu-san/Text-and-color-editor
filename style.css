@@ -1,0 +1,213 @@
+body {
+    min-height: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-width: 1px 1px 1px 2px;
+    border-color: #777;
+    border-radius: 10px;
+    background-color: #aaa;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    border-width: 1px 1px 1px 2px;
+    border-color: #555;
+    background-color: #777;
+}
+
+::-webkit-scrrollbar-track {
+    border-width: 0px;
+}
+
+::-webkit-scrollbar-track:hover {
+    border-left: solid 1px #aaa;
+    background-color: transparent;
+    border: 0;
+}
+
+.menu {
+    position: relative;
+    width: 900px;
+    height: 500px;
+    margin: auto;
+    border-radius: 15px;
+    border: 1px solid #616161;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #aec9a0;
+}
+
+#out {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+hr {
+    background-color: #757573;
+    border: none;
+    height: 1px;
+    padding: 0px;
+}
+
+.hr_altered {
+    background-color: #888a81;
+}
+
+.field {
+    position: relative;
+    left: 370px;
+    margin: 5px;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #888383;
+    border-radius: 5px;
+    outline: none;
+}
+
+.field:hover {
+    background-color: #bbd1ac;
+}
+
+.button,
+#add_color_man,
+#add_color_woman,
+#reset_changes,
+#random_background,
+#reset_random_values,
+#random_color_text,
+#random_background_body {
+    outline: none;
+    cursor: pointer;
+}
+
+.button {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #e6dcdc;
+    background-color: transparent;
+    color: #ececec;
+    border-radius: 3px;
+    position: absolute;
+    top: 25px;
+    left: 575px;
+    font-size: 22px;
+}
+
+.button:hover {
+    background-color: #808080;
+    border: 1px solid #808080;
+    color: #b4b3b3;
+}
+
+.button:active {
+    background: linear-gradient(#4b4a4a);
+    box-shadow: 0 0 1px #00000080 inset, 0 2px 3px #00000080 inset, 0 1px 1px #ffffff1a;
+    background-color: #4b4a4a;
+}
+
+.gender_and_other_settings {
+    position: absolute;
+}
+
+.change_and_reset_buttons {
+    width: 98px;
+    position: absolute;
+    bottom: 5px;
+    left: 90px;
+    border: 1px solid #708180;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.gender_change_and_reset_buttons {
+    width: 140px;
+    position: absolute;
+    bottom: 5px;
+    left: 212px;
+    border: 1px solid #708180;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+#add_color_woman,
+#add_color_man,
+#reset_changes,
+#random_background,
+#reset_random_values,
+#random_color_text,
+#random_background_body {
+    font-size: 18px;
+    border: 1px solid #888383;
+    background-color: transparent;
+    border-radius: 15px;
+}
+
+#add_color_man:hover,
+#add_color_woman:hover,
+#reset_changes:hover,
+#random_color_text:hover {
+    background-color: #adadadcc;
+}
+
+#add_color_man {
+    color: #047fe4;
+}
+
+#add_color_woman {
+    color: #ff0289;
+}
+
+#reset_changes,
+#random_color_text {
+    color: #8d8f8d;
+}
+
+#reset_changes:active,
+#random_color_text:active {
+    color: #181818;
+}
+
+#random_background {
+    color: #11fbff;
+    border: 1px solid #38fff5;
+}
+
+#random_background:hover {
+    background-color: #bafddd;
+}
+
+#random_background:active {
+    color: #1ba4a7;
+    background-color: #bee9d4;
+}
+
+#reset_random_values {
+    border: 1px solid #70c0af;
+    color: #8dc5b7;
+}
+
+#reset_random_values:active {
+    color: #4eaf92;
+}
+
+#reset_random_values:hover {
+    background-color: #bafddd;
+}
+
+#random_background_body {
+    color: #3ba1a3;
+    border: 1px solid #2bb4ab;
+}
+
+#random_background_body:hover {
+    background-color: #bafddd;
+}
+
+#random_background_body:active {
+    color: #2b7274;
+}

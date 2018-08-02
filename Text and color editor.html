@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="JavaScript.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <title>Какой-то проект</title>
+</head>
+
+<body>
+    <div class="menu" id="menu">
+        <hr class="hr_altered">
+        <input type="text" id="field" class="field" placeholder="Напишите">
+        <button class="button" onclick="add()" id="button">+</button>
+        <div class="gender_and_other_settings">
+            <div class="change_and_reset_buttons">
+                <button onclick="reset_random_values()" id="reset_random_values">❌</button>
+                <button onclick="random_background_body()" id="random_background_body">☁</button>
+                <button onclick="random_background()" id="random_background">☂</button>
+            </div>
+            <div class="gender_change_and_reset_buttons">
+                <button onclick="reset_changes()" id="reset_changes">❌</button>
+                <button onclick="random_color_text()" id="random_color_text">✎</button>
+                <button onclick="add_color_woman()" id="add_color_woman">👯</button>
+                <button onclick="add_color_man()" id="add_color_man">👨</button>
+            </div>
+        </div>
+        <hr class="hr_altered">
+        <p id="out"></p>
+    </div>
+</body>
+
+</html>
