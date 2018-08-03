@@ -15,8 +15,13 @@ function add() {
     var field = document.getElementById('field').value;
     arr.push(field);
     massif();
-    document.getElementById('field').value = 'Ваш текст';
+    document.getElementById('field').value = 'Hello my friends';
     document.getElementById('field').placeholder = 'Введите что-нибудь';
+}
+
+function del() {
+    arr.pop();
+    massif();
 }
 
 function dis_button() {
@@ -44,6 +49,7 @@ function reset_changes() {
     document.getElementById('add_color_woman').style.color = "#ff0289";
     document.getElementById('out').style.color = "black";
     document.getElementById('field').style.color = "black"
+    document.getElementById('out').style.fontFamily = "nherit";
 }
 
 function reset_random_values() {
@@ -75,4 +81,61 @@ function random_background_body() {
     var elem = document.querySelector('body');
     color = "#" + color;
     elem.style.backgroundColor = color;
+}
+
+$(_ => {
+    $('.open_the_font_family').on('click', e => {
+        $(".font_family").toggle();
+    });
+    // $('.op').on('click', function(e) {
+    //     $(this).hide();
+    // });
+});
+
+function font_family_1() {
+    document.getElementById('out').style.fontFamily = "arial";
+}
+
+function font_family_2() {
+    document.getElementById('out').style.fontFamily = "nyala";
+}
+
+function font_family_3() {
+    document.getElementById('out').style.fontFamily = "calibri";
+}
+
+function font_family_4() {
+    document.getElementById('out').style.fontFamily = "comic sans ms";
+}
+
+function font_family_5() {
+    document.getElementById('out').style.fontFamily = "consolas";
+}
+
+function font_family_6() {
+    document.getElementById('out').style.fontFamily = "courier";
+}
+
+function font_family_7() {
+    document.getElementById('out').style.fontFamily = "fantasy";
+}
+
+function font_family_8() {
+    document.getElementById('out').style.fontFamily = "gabriola";
+}
+
+function font_family_9() {
+    document.getElementById('out').style.fontFamily = "helvetica";
+}
+
+function font_family_10() {
+    document.getElementById('out').style.fontFamily = "monospace";
+}
+
+function font_family_11() {
+    document.getElementById('out').style.fontFamily = "mv boli";
+}
+
+function font_family_12() {
+    document.getElementById('out').style.fontFamily = "segoe script";
 }
