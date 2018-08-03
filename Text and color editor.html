@@ -14,6 +14,7 @@
         <hr class="hr_altered">
         <input type="text" id="field" class="field" placeholder="Напишите">
         <button class="button" onclick="add()" id="button">+</button>
+        <button class="button_del" onclick="del()" id="button_del">-</button>
         <div class="gender_and_other_settings">
             <div class="change_and_reset_buttons">
                 <button onclick="reset_random_values()" id="reset_random_values">❌</button>
@@ -22,9 +23,26 @@
             </div>
             <div class="gender_change_and_reset_buttons">
                 <button onclick="reset_changes()" id="reset_changes">❌</button>
+                <button id="open_the_font_family" class="open_the_font_family">T</button>
                 <button onclick="random_color_text()" id="random_color_text">✎</button>
                 <button onclick="add_color_woman()" id="add_color_woman">👯</button>
                 <button onclick="add_color_man()" id="add_color_man">👨</button>
+            </div>
+            <div id="font_family" class="font_family">
+                <div class="menu_font_family">
+                    <p onclick="font_family_1()" id="font_family_1">T</p>
+                    <p onclick="font_family_2()" id="font_family_2">T</p>
+                    <p onclick="font_family_3()" id="font_family_3">T</p>
+                    <p onclick="font_family_4()" id="font_family_4">T</p>
+                    <p onclick="font_family_5()" id="font_family_5">T</p>
+                    <p onclick="font_family_6()" id="font_family_6">T</p>
+                    <p onclick="font_family_7()" id="font_family_7">T</p>
+                    <p onclick="font_family_8()" id="font_family_8">T</p>
+                    <p onclick="font_family_9()" id="font_family_9">T</p>
+                    <p onclick="font_family_10()" id="font_family_10">T</p>
+                    <p onclick="font_family_11()" id="font_family_11">T</p>
+                    <p onclick="font_family_12()" id="font_family_12">T</p>
+                </div>
             </div>
         </div>
         <hr class="hr_altered">
