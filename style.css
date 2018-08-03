@@ -74,13 +74,15 @@ hr {
 }
 
 .button,
+.button_del,
 #add_color_man,
 #add_color_woman,
 #reset_changes,
 #random_background,
 #reset_random_values,
 #random_color_text,
-#random_background_body {
+#random_background_body,
+#open_the_font_family {
     outline: none;
     cursor: pointer;
 }
@@ -98,16 +100,31 @@ hr {
     font-size: 22px;
 }
 
-.button:hover {
+.button:hover,
+.button_del:hover {
     background-color: #808080;
     border: 1px solid #808080;
     color: #b4b3b3;
 }
 
-.button:active {
+.button:active,
+.button_del:active {
     background: linear-gradient(#4b4a4a);
     box-shadow: 0 0 1px #00000080 inset, 0 2px 3px #00000080 inset, 0 1px 1px #ffffff1a;
     background-color: #4b4a4a;
+}
+
+.button_del {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #e6dcdc;
+    background-color: transparent;
+    color: #ececec;
+    border-radius: 3px;
+    position: absolute;
+    top: 25px;
+    left: 615px;
+    font-size: 22px;
 }
 
 .gender_and_other_settings {
@@ -118,17 +135,17 @@ hr {
     width: 98px;
     position: absolute;
     bottom: 5px;
-    left: 90px;
+    left: 60px;
     border: 1px solid #708180;
     padding: 4px;
     border-radius: 10px;
 }
 
 .gender_change_and_reset_buttons {
-    width: 140px;
+    width: 172px;
     position: absolute;
     bottom: 5px;
-    left: 212px;
+    left: 180px;
     border: 1px solid #708180;
     padding: 4px;
     border-radius: 10px;
@@ -140,7 +157,8 @@ hr {
 #random_background,
 #reset_random_values,
 #random_color_text,
-#random_background_body {
+#random_background_body,
+#open_the_font_family {
     font-size: 18px;
     border: 1px solid #888383;
     background-color: transparent;
@@ -150,7 +168,8 @@ hr {
 #add_color_man:hover,
 #add_color_woman:hover,
 #reset_changes:hover,
-#random_color_text:hover {
+#random_color_text:hover,
+#open_the_font_family:hover {
     background-color: #adadadcc;
 }
 
@@ -168,7 +187,8 @@ hr {
 }
 
 #reset_changes:active,
-#random_color_text:active {
+#random_color_text:active,
+#open_the_font_family:active {
     color: #181818;
 }
 
@@ -210,4 +230,103 @@ hr {
 
 #random_background_body:active {
     color: #2b7274;
+}
+
+#open_the_font_family {
+    font-size: 21px;
+    color: #8d8f8d;
+}
+
+#select_the_font_family {
+    width: 300px;
+    height: 100px;
+    display: inline-block;
+    position: relative;
+    top: 500px;
+    border: 1px solid #808080;
+}
+
+#font_family {
+    position: absolute;
+    display: none;
+    left: 200px;
+}
+
+.menu_font_family {
+    width: 70px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu_font_family p {
+    padding: 5px;
+    display: inline;
+}
+
+.menu_font_family p:hover {
+    color: #808080;
+}
+
+#font_family_1:active,
+#font_family_2:active,
+#font_family_3:active,
+#font_family_4:active,
+#font_family_5:active,
+#font_family_6:active,
+#font_family_7:active,
+#font_family_8:active,
+#font_family_9:active,
+#font_family_10:active,
+#font_family_11:active,
+#font_family_12:active {
+    color: #b2ddc9;
+}
+
+#font_family_1 {
+    font-family: arial;
+}
+
+#font_family_2 {
+    font-family: nyala;
+}
+
+#font_family_3 {
+    font-family: calibri;
+}
+
+#font_family_4 {
+    font-family: comic sans ms;
+}
+
+#font_family_5 {
+    font-family: consolas;
+}
+
+#font_family_6 {
+    font-family: courier;
+}
+
+#font_family_7 {
+    font-family: fantasy;
+}
+
+#font_family_8 {
+    font-family: gabriola;
+}
+
+#font_family_9 {
+    font-family: helvetica;
+}
+
+#font_family_10 {
+    font-family: monospace;
+}
+
+#font_family_11 {
+    font-family: mv boli;
+}
+
+#font_family_12 {
+    font-family: segoe script;
 }
