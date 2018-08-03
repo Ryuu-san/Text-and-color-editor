@@ -1,4 +1,4 @@
 # Text-and-color-editor
-![text and color editor](https://user-images.githubusercontent.com/41924146/43598198-32bee1b2-9695-11e8-8040-cfdc3a0bb709.png)
+![text and color editor](https://user-images.githubusercontent.com/41924146/43641994-cadd85ba-9736-11e8-8ff4-e908206adc27.png)
 Что-то типо мини редактора цвета текста и фона, возможно добавлю кое-что новое попозже.
-![text and color editor](https://user-images.githubusercontent.com/41924146/43631987-d9ec10c4-9715-11e8-9e6b-2d1195c490af.gif)
+![text and color editor](https://user-images.githubusercontent.com/41924146/43641954-99bee5b4-9736-11e8-9f22-5d3c3689c5bb.gif)
